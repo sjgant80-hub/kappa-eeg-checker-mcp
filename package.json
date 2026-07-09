@@ -1,32 +1,28 @@
 {
   "name": "@ai-native-solutions/kappa-eeg-checker-mcp",
   "version": "1.0.0",
-  "description": "MCP server for κ-EEG Checker · EDF/BDF parse, sample entropy, multiscale entropy, session analysis + 7 κ-bands resource",
+  "description": "kappa-eeg-checker MCP server · stdio wrapper around @ai-native-solutions/kappa-eeg-checker-sdk",
   "type": "module",
-  "main": "src/server.js",
+  "main": "src/index.js",
   "bin": {
-    "kappa-eeg-checker-mcp": "src/server.js"
+    "kappa-eeg-checker-mcp": "src/index.js"
   },
-  "files": ["src", "LICENSE", "README.md"],
+  "files": ["src", "README.md", "LICENSE"],
   "scripts": {
-    "start": "node src/server.js"
+    "start": "node src/index.js"
   },
-  "keywords": ["mcp", "model-context-protocol", "eeg", "entropy", "kappa", "phi", "sovereign"],
+  "keywords": ["kappa-eeg-checker", "mcp", "model-context-protocol", "ai-native-solutions"],
   "author": "AI-Native Solutions",
   "license": "MIT",
-  "homepage": "https://sjgant80-hub.github.io/kappa-eeg-checker-mcp",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sjgant80-hub/kappa-eeg-checker-mcp"
-  },
-  "publishConfig": {
-    "access": "public"
+    "url": "https://github.com/sjgant80-hub/kappa-eeg-checker-mcp.git"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
     "@ai-native-solutions/kappa-eeg-checker-sdk": "^1.0.0"
   },
-  "engines": {
-    "node": ">=18"
+  "publishConfig": {
+    "access": "public"
   }
 }
