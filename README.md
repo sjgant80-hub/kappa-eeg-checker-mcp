@@ -1,5 +1,7 @@
 # kappa-eeg-checker-mcp
 
+**Live:** [sjgant80-hub.github.io/kappa-eeg-checker-mcp](https://sjgant80-hub.github.io/kappa-eeg-checker-mcp/)
+
 MCP stdio server wrapping `@ai-native-solutions/kappa-eeg-checker-sdk`.
 
 ## Install
